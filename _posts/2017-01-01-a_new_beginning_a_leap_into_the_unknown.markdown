@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "**A New Beginning: a leap into the unknown**"
+title:  "A Leap Into The Unknown"
 date:   2017-01-01 01:45:35 -0500
 ---
 
