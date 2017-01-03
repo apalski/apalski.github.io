@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "**A New Beginning: a leap into the unknown**"
-date:   2017-01-01 06:45:34 +0000
+date:   2017-01-01 01:45:35 -0500
 ---
 
 ![](http://www.wpclipart.com/holiday/4th_July/fireworks_2.jpg)
