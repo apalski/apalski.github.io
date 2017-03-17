@@ -17,7 +17,7 @@ My first idea was something for aged care as I know that in Australia it is very
 
 Another love of mine is travel and seeing natural wonders. Thinking on this took me to public travel sites and then to the website on which my project is based, the NSW National Parks website. The coding and scraping for this was mainly straight forward with the only real issue I came across accessing the information on the region a park was found in. Originally, I found the information on each park page but with 239 parks the scrape and collate was taking near to two minutes...way too long. I managed to find a work-around from a page that listed the regions and then gave a list of the parks the region held. Next snag, the text for the park name returned from each region was sitting in the middle of the page and not to the left and my comparison to the parks in my @@all array was failing...no matches found. More googling and another instance of something slapping me in the face, now where had I seen '.strip' before, duh! My issue had been leading and trailing white space! 
 
-With the coding, commenting and Readme completed it was time to look at how to create a Ruby Gem. This was surprisingly easy using the Learn info, RubyGem guides and a great blog by Matt Huggins at  https://quickleft.com/blog/. First thing to do is to create your gem bundle with `bundle gem 'your_gem_name'`. This gives you a rakefile and 'your file name'.gemspec which you will use to build your gem.
+With the coding, commenting and Readme completed it was time to look at how to create a Ruby Gem. This was surprisingly easy using the Learn info, RubyGem guides and a great blog by Matt Huggins at [https://quickleft.com/blog/engineering-lunch-series-step-by-step-guide-to-building-your-first-ruby-gem/]. First thing to do is to create your gem bundle with `bundle gem 'your_gem_name'`. This gives you a rakefile and 'your file name'.gemspec which you will use to build your gem.
 
 The .gemspec file lists the name of your gem, the version of your gem, the author, the author's email address, the homepage of the gem (usually either a git page or a RubyGems page), a description and summary of the gem, details on files and details on development dependencies (bundler, rake, nokogiri, rspec, etc).
 
@@ -28,7 +28,7 @@ Name: nswparks
 Version: 1.0.0
 File: nswparks-1.0.0.gem
 
-Publishing the gem at RubyGems.org was a simple matter of creating an account with RubyGems at their website: https://rubygems.org/ and then returning to my terminal and entering `gem push nswparks-1.0.0.gem` and done:
+Publishing the gem at RubyGems.org was a simple matter of creating an account with RubyGems at their website: [https://rubygems.org/] and then returning to my terminal and entering `gem push nswparks-1.0.0.gem` and done:
 
 Pushing gem to RubyGems.org...
 Successfully registered gem: nswparks (1.0.0)
